@@ -5,12 +5,7 @@ function ProjectsPage() {
   return (
     <div className="page">
       <section className="section intro">
-        <p className="eyebrow">Projekter</p>
-        <h1>Mine projekter</h1>
-        <p>
-          Udskift eksemplerne med dine egne projekter. Brug korte beskrivelser,
-          tydelige billeder og links til live versioner eller GitHub repos.
-        </p>
+        <h1>Projekter</h1>
       </section>
 
       <section className="project-grid" aria-label="Projektliste">
