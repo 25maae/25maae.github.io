@@ -1,11 +1,11 @@
 const projects = [
   {
-    slug: "portfolio",
-    title: "Portfolio",
+    slug: "Hoomie",
+    title: "Hoomie",
     year: "2026",
-    summary: "En personlig portfolio bygget med React, Vite og GitHub Pages.",
+    summary: "Appen, der hjælper dig og dine roommates med at holde styr på opgaver, indkøb, planer m.m.",
     description:
-      "Portfolioen viser udvalgte projekter og fungerer som et udgangspunkt for at arbejde med komponenter, routing, styling og deployment.",
+      "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m.",
     tags: ["React", "Vite", "GitHub Pages"],
     image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
     links: [
@@ -20,8 +20,8 @@ const projects = [
     ],
   },
   {
-    slug: "case-study",
-    title: "Case study",
+    slug: "wanted-archives",
+    title: "Wanted Archives",
     year: "2026",
     summary: "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
     description:
