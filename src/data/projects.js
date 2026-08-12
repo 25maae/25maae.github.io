@@ -7,7 +7,7 @@ const projects = [
       "Webapp i mobil-first design, som samler opgaver, indkøb og planer under samme tag.",
     description:
       "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m. Redigér, slet og tilføj opgaver, og få et overblik over, hvem der har gjort hvad. Appen er bygget med React og Vite, og er hostet på GitHub Pages.",
-    tags: ["React", "Vite", "GitHub Pages"],
+    tags: ["React & Vite", "Web Application", "CRUD"],
     image: `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
     links: [
       {
@@ -27,7 +27,7 @@ const projects = [
     summary: "Tøj webshop.",
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
-    tags: ["Design", "Frontend", "Proces"],
+    tags: ["Filters & Sorting", "Customer Experience"],
     image: `${import.meta.env.BASE_URL}wanted-mockup.jpg`,
     links: [
       {
@@ -43,8 +43,8 @@ const projects = [
     summary: "Øl-etiketter designet til To Øl.",
     description:
       "Etiketdesign til To Øl, hvor jeg har arbejdet med typografi, farver og illustrationer for at skabe et unikt udtryk for hver øl. ",
-    tags: ["Design", "Adobe", "Proces"],
-    image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
+    tags: ["Adobe Illustrator", "Mockups"],
+    image: `${import.meta.env.BASE_URL}beer-mockup.svg`,
     links: [
       {
         label: "Eksempel-link",
