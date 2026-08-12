@@ -16,8 +16,7 @@ function AboutPage() {
         <div>
           <h2>Tools</h2>
           <p>
-            React, HTML, CSS, JavaScript, Figma, designproces og digitale
-            produkter.
+            React, HTML, CSS, JavaScript, Figma, Adobe programmer.
           </p>
         </div>
         <div>

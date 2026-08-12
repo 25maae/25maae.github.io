@@ -40,10 +40,10 @@ const projects = [
     slug: "to-oel",
     title: "To Øl - Labels",
     year: "2026",
-    summary: "Øl-etiketter designet til To Øl.",
+    summary: 'Øl-etiketter designet til "To Øl".',
     description:
       "Etiketdesign til To Øl, hvor jeg har arbejdet med typografi, farver og illustrationer for at skabe et unikt udtryk for hver øl. ",
-    tags: ["Adobe Illustrator", "Mockups"],
+    tags: ["Adobe Photoshop", "Mockups"],
     image: `${import.meta.env.BASE_URL}beer-mockup.svg`,
     links: [
       {
@@ -56,11 +56,11 @@ const projects = [
     slug: "merkur",
     title: "Merkur Andelskasse",
     year: "2026",
-    summary: "Øl-etiketter designet til To Øl.",
+    summary: "Re-design af logo for Merkur Andelskasse.",
     description:
-      "Etiketdesign til To Øl, hvor jeg har arbejdet med typografi, farver og illustrationer for at skabe et unikt udtryk for hver øl. ",
+      "Logodesign til Merkur Andelskasse, hvor typografi, farver og symbolik har været i fokus for at skabe et moderne og genkendeligt brand. Det nye logo er efterfølgende implementeret på forskellige moockups, som giver et realistisk billede af det færdige produkt.",
     tags: ["Design", "Adobe", "Proces"],
-    image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
+    image: `${import.meta.env.BASE_URL}merkur-mockup.png`,
     links: [
       {
         label: "Eksempel-link",
