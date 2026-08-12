@@ -323,9 +323,16 @@ p {
 
 .portraet {
   width: 70%;
-  filter: grayscale(100%);
-  margin-left: 30rem;
-  flex-direction: column;
+  opacity: 0.95;
+  left: 30rem;
+  bottom: 62rem;
+  position: relative;
+}
+
+@media (max-width: 1080px) {
+  .portraet {
+    display: none;
+  }
 }
 
 @media (max-width: 720px) {
@@ -347,3 +354,4 @@ p {
     padding-top: 2rem;
   }
 }
+
