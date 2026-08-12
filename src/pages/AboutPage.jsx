@@ -15,9 +15,7 @@ function AboutPage() {
       <section className="info-list" aria-label="Om mig detaljer">
         <div>
           <h2>Tools</h2>
-          <p>
-            React, HTML, CSS, JavaScript, Figma, Adobe programmer.
-          </p>
+          <p>React, HTML, CSS, JavaScript, Figma, Adobe programmer.</p>
         </div>
         <div>
           <h2>Jeg er nysgerrig på</h2>
@@ -31,6 +29,7 @@ function AboutPage() {
       <p className="lead">
         I forbindelse til mit arbejde med digitale løsninger.
       </p>
+      <img className="portraet" alt="portræt" src="public/portraet.png" />
     </div>
   );
 }
