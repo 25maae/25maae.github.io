@@ -4,18 +4,18 @@ const projects = [
     title: "Hoomie",
     year: "2026",
     summary:
-      "App til opgavestyring og overblik for roommates.",
+      "Webapp i mobil-first design, som samler opgaver, indkøb og planer under samme tag.",
     description:
-      "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m.",
+      "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m. Redigér, slet og tilføj opgaver, og få et overblik over, hvem der har gjort hvad. Appen er bygget med React og Vite, og er hostet på GitHub Pages.",
     tags: ["React", "Vite", "GitHub Pages"],
     image: `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
     links: [
       {
-        label: "Live site",
+        label: "Udforsk selv Hoomie",
         href: "https://sebbbenator.github.io/hoomie/",
       },
       {
-        label: "GitHub repo",
+        label: "GitHub repository",
         href: "https://github.com/Sebbbenator/hoomie",
       },
     ],
@@ -24,8 +24,7 @@ const projects = [
     slug: "wanted-archives",
     title: "Wanted Archives",
     year: "2026",
-    summary:
-      "Tøj webshop.",
+    summary: "Tøj webshop.",
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Design", "Frontend", "Proces"],

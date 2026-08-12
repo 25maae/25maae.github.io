@@ -2,6 +2,14 @@
   font-family: "Phudu-Bold";
   src: url("/fonts/Phudu-Bold.ttf");
 }
+@font-face {
+  font-family: "Rethink";
+  src: url("/fonts/RethinkSans-Regular.ttf");
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Regular.ttf");
+}
 
 :root {
   font-family:
@@ -20,7 +28,8 @@
   --text-color: #212529;
   --brand-color: #540b0e;
   --brand-font: "Phudu-Bold", sans-serif;
-  --text-font: Poppins, ui-sans-serif;
+  --text-font: "Rethink", ui-sans-serif;
+  --sub-font: "BebasNeue", ui-sans-serif;
 }
 
 * {
@@ -73,6 +82,7 @@ textarea {
   transition:
     transform 0.2s ease,
     font-size 0.2s ease;
+    font-family: var(--sub-font);
 }
 
 .site-nav a.active,
@@ -117,11 +127,12 @@ textarea {
 
 .eyebrow {
   margin: 0;
-  color: var(--brand-color);
-  font-size: 0.78rem;
+  color: var(--text-color);
+  font-size: 0.90rem;
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
+  font-family: var(--brand-font);
 }
 
 h1,
@@ -158,14 +169,15 @@ h3 {
 }
 
 p {
-  color: #526173;
+  color: var(--text-color);
   line-height: 1.65;
+  font-family: var(--text-font);
 }
 
 .hero-text,
 .lead {
   max-width: 680px;
-  font-size: 1.15rem;
+  font-size: 1.50rem;
 }
 
 .actions {
@@ -218,6 +230,7 @@ p {
 .project-card a {
   color: var(--brand-color);
   font-weight: 800;
+  text-decoration: overline;
 }
 
 .detail-image {

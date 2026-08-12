@@ -5,12 +5,12 @@ function AboutPage() {
       <p className="lead">
         Jeg er Martin, en 23 årig, multimediedesign-studerende med hænderne i
         både design og programmering. Jeg nyder at arbejde med det visuelle samt
-        de tanker, der skaber fantastiske brugeroplevelser. Jeg sætter stor pris
-        på systemmer og struktur, når det kommer til digitale løsninger. Når jeg
-        først er i gang med et projekt, slipper jeg sjældent før detaljerne er
-        på plads. Jeg trives i teams med samarbejde og sparing, men tager også
+        de tanker, der skaber fantastiske brugeroplevelser og jeg sætter stor
+        pris på systemmer, når det kommer til digitale løsninger. Når jeg først
+        er i gang med et projekt, slipper jeg det sjældent før detaljerne er på
+        plads. Jeg trives i teams med samarbejde og sparing, men tager også
         gerne selvstændigt ansvar. Mit arbejde kendetegnes af struktur, sans for
-        detaljer og en drivkraft i at gøre idéer konkrete og brugbare.
+        detaljer og en drivkraft i at bringe idéer til live.
       </p>
       <section className="info-list" aria-label="Om mig detaljer">
         <div>
