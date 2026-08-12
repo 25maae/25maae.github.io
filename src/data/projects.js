@@ -8,7 +8,7 @@ const projects = [
     description:
       "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m.",
     tags: ["React", "Vite", "GitHub Pages"],
-    image: `${import.meta.env.BASE_URL}hoomie-mockup.png`,
+    image: `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
     links: [
       {
         label: "Live site",
@@ -29,7 +29,7 @@ const projects = [
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Design", "Frontend", "Proces"],
-    image: `${import.meta.env.BASE_URL}wanted-mockup.png`,
+    image: `${import.meta.env.BASE_URL}wanted-mockup.jpg`,
     links: [
       {
         label: "Live site",
@@ -44,7 +44,23 @@ const projects = [
     summary: "Øl-etiketter designet til To Øl.",
     description:
       "Etiketdesign til To Øl, hvor jeg har arbejdet med typografi, farver og illustrationer for at skabe et unikt udtryk for hver øl. ",
-    tags: ["Design", "Frontend", "Proces"],
+    tags: ["Design", "Adobe", "Proces"],
+    image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
+    links: [
+      {
+        label: "Eksempel-link",
+        href: "https://github.com",
+      },
+    ],
+  },
+  {
+    slug: "to-oel",
+    title: "To Øl - Labels",
+    year: "2026",
+    summary: "Øl-etiketter designet til To Øl.",
+    description:
+      "Etiketdesign til To Øl, hvor jeg har arbejdet med typografi, farver og illustrationer for at skabe et unikt udtryk for hver øl. ",
+    tags: ["Design", "Adobe", "Proces"],
     image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
     links: [
       {

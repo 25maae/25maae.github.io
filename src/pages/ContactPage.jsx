@@ -1,25 +1,13 @@
 function ContactPage() {
   return (
     <div className="page narrow">
-      <p className="eyebrow">Kontakt</p>
-      <h1>Lad os tale sammen.</h1>
-      <p className="lead">
-        Kontakt mig via:
-      </p>
+      <h1>Lad os kreere sammen.</h1>
+      <p className="lead">Du kan kontakte mig via:</p>
 
       <ul className="contact-list">
         <li>
           <a href="mailto:martinhammerum2@gmail.com">
-            martinhammerum2@gmail.com
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/25maae"
-            rel="noreferrer"
-            target="_blank"
-          >
-            GitHub
+            Mail
           </a>
         </li>
         <li>

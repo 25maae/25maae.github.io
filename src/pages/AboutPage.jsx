@@ -1,7 +1,6 @@
 function AboutPage() {
   return (
     <div className="page narrow">
-      <p className="eyebrow">Om mig</p>
       <h1>Hvem er jeg?</h1>
       <p className="lead">
         Jeg er Martin, en 23 årig, multimediedesign-studerende med hænderne i
