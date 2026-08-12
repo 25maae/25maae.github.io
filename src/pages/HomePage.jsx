@@ -8,9 +8,10 @@ function HomePage() {
     <div className="page">
       <section className="hero-section">
         <h1>Martin Hammerum Ærensgaard</h1>
+        <h2 className="hero-text">Portfolio 2026</h2>
         <p className="hero-text">
-          Jeg arbejder med frontend, design og digitale produkter. Her samler
-          jeg projekter, proces og det, jeg lærer undervejs.
+          Multimediedesign-studerende med fokus på digitale løsninger,
+          brugeroplevelser og visuel identitet.
         </p>
       </section>
 
