@@ -26,6 +26,11 @@ function ProjectsPage() {
           </article>
         ))}
       </section>
+      <footer className="footer">
+        <a className="footer.btn" href="#">
+          Gå til toppen
+        </a>
+      </footer>
     </div>
   );
 }

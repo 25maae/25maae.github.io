@@ -12,8 +12,6 @@
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  --font-heading: "Phudu-Bold", sans-serif;
-  --font-body: Poppins, ui-sans-serif;
   background: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,6 +19,8 @@
   -moz-osx-font-smoothing: grayscale;
   --text-color: #212529;
   --brand-color: #540b0e;
+  --brand-font: "Phudu-Bold", sans-serif;
+  --text-font: Poppins, ui-sans-serif;
 }
 
 * {
@@ -67,11 +67,12 @@ textarea {
 }
 
 .site-nav a {
-  border-radius: 999px;
   color: var(--text-color);
   padding: 0.55rem 0.8rem;
   text-decoration: none;
-  transition: transform 0.2s ease, font-size 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    font-size 0.2s ease;
 }
 
 .site-nav a.active,
@@ -131,7 +132,7 @@ p {
 }
 
 h1 {
-  font-family: var(--font-heading);
+  font-family: var(--brand-font);
   max-width: 760px;
   margin-bottom: 1rem;
   color: var(--brand-color);
@@ -146,6 +147,7 @@ h2 {
   font-size: clamp(1.6rem, 4vw, 2.4rem);
   line-height: 1.05;
   letter-spacing: 0;
+  font-family: var(--brand-font);
 }
 
 h3 {
@@ -280,6 +282,30 @@ p {
 .contact-list a {
   color: var(--brand-color);
   font-weight: 800;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: var(--brand-font);
+  font-weight: 700;
+  color: var(--brand-color);
+    transition:
+    transform 0.2s ease,
+    font-size 0.2s ease;
+}
+
+.footer a.active,
+.footer a:hover {
+  color: var(--brand-color);
+  font-size: 1.05em; /* lidt større */
+  transform: scale(1.03);
 }
 
 @media (max-width: 720px) {

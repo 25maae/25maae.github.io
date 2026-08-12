@@ -4,7 +4,7 @@ const projects = [
     title: "Hoomie",
     year: "2026",
     summary:
-      "Appen, der hjælper dig og dine roommates med at holde styr på opgaver, indkøb, planer m.m.",
+      "App til opgavestyring og overblik for roommates.",
     description:
       "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m.",
     tags: ["React", "Vite", "GitHub Pages"],
@@ -25,7 +25,7 @@ const projects = [
     title: "Wanted Archives",
     year: "2026",
     summary:
-      "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
+      "Tøj webshop.",
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Design", "Frontend", "Proces"],
@@ -54,8 +54,8 @@ const projects = [
     ],
   },
   {
-    slug: "to-oel",
-    title: "To Øl - Labels",
+    slug: "merkur",
+    title: "Merkur Andelskasse",
     year: "2026",
     summary: "Øl-etiketter designet til To Øl.",
     description:
