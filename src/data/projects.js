@@ -9,6 +9,10 @@ const projects = [
       "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m. Redigér, slet og tilføj opgaver, og få et overblik over, hvem der har gjort hvad. Appen er bygget med React og Vite, og er hostet på GitHub Pages.",
     tags: ["React & Vite", "Web Application", "CRUD"],
     image: `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
+    detailImages: [
+      `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
+      `${import.meta.env.BASE_URL}hoomie-mockup.png`,
+    ],
     links: [
       {
         label: "Udforsk selv Hoomie",
@@ -29,6 +33,10 @@ const projects = [
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Filters & Sorting", "Customer Experience"],
     image: `${import.meta.env.BASE_URL}wanted-mockup.jpg`,
+    detailImages: [
+      `${import.meta.env.BASE_URL}wanted-mockup.jpg`,
+      `${import.meta.env.BASE_URL}wanted-mockup.png`,
+    ],
     links: [
       {
         label: "Live site",

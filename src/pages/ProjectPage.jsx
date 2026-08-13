@@ -4,6 +4,7 @@ import projects from "../data/projects";
 function ProjectPage() {
   const { slug } = useParams();
   const project = projects.find((item) => item.slug === slug);
+  const detailImages = project?.detailImages ?? [project?.image].filter(Boolean);
 
   if (!project) {
     return (
@@ -23,8 +24,6 @@ function ProjectPage() {
       <Link className="back-link" to="/projects">
         Tilbage til projekter
       </Link>
-
-      <img className="detail-image" src={project.image} alt="" />
       <p className="eyebrow">{project.year}</p>
       <h1>{project.title}</h1>
       <p className="lead">{project.description}</p>
@@ -46,6 +45,16 @@ function ProjectPage() {
           >
             {link.label}
           </a>
+        ))}
+      </div>
+      <div className="detail-image-gallery">
+        {detailImages.map((image, index) => (
+          <img
+            className="detail-image"
+            src={image}
+            alt={`${project.title} billede ${index + 1}`}
+            key={`${project.slug}-${index}`}
+          />
         ))}
       </div>
     </article>
