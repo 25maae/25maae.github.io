@@ -40,7 +40,14 @@ const projects = [
     summary: "Tøj webshop.",
     description:
       "Wanted Archives er en webshop, der tilbyder en bred vifte af tøj og accessoires. Webshoppen er designet med fokus på brugeroplevelse og æstetik, og er bygget med HTML, CSS, JavaScript og hostet på GitHub Pages.",
-    tags: ["Design", "Adobe Photoshop", "Customer Experience", "Figma", "Web Shop", "JavaScript"],
+    tags: [
+      "Design",
+      "Adobe Photoshop",
+      "Customer Experience",
+      "Figma",
+      "Web Shop",
+      "JavaScript",
+    ],
     image: `${import.meta.env.BASE_URL}wanted-mockup.jpg`,
     detailImages: [
       `${import.meta.env.BASE_URL}wanted-mockup.jpg`,
@@ -63,16 +70,10 @@ const projects = [
     slug: "to-oel",
     title: "To Øl - Etiketter/labels",
     year: "2026",
-    summary:
-      "Etiketter design til To Øl.",
+    summary: "Etiketter design til To Øl.",
     description:
       "To Øl er et dansk bryggeri, der producerer øl af høj kvalitet. Fokus har været at designe etiketter til deres øl, som afspejler deres brandidentitet og værdier. Designet er lavet i Adobe Illustrator. Dette er ikke et officielt samarbejde med To Øl!",
-    tags: [
-      "Adobe Illustrator",
-      "Brand Identity",
-      "Visual Design",
-      "Mockups",
-    ],
+    tags: ["Adobe Illustrator", "Brand Identity", "Visual Design", "Mockups"],
     image: `${import.meta.env.BASE_URL}beer-mockup.svg`,
     detailImages: [
       `${import.meta.env.BASE_URL}beers-mockup.jpg`,
@@ -80,32 +81,23 @@ const projects = [
       `${import.meta.env.BASE_URL}ipa.svg`,
       `${import.meta.env.BASE_URL}triple-bock.svg`,
     ],
-    links: [
-    ],
+    links: [],
   },
   {
     slug: "merkur",
     title: "Merkur Andelskasse",
     year: "2026",
-    summary:
-      "Redesign af Merkur Andelskasses logo og visuelle identitet.",
+    summary: "Redesign af Merkur Andelskasses logo og visuelle identitet.",
     description:
       "Merkur Andelskasse er en dansk bank, der fokuserer på bæredygtighed og social ansvarlighed. Fokus har været at redesigne deres logo og visuelle identitet, så det afspejler deres værdier og vission. Designet er lavet i Adobe Illustrator. Dette er ikke et officielt samarbejde med Merkur Andelskasse!",
-    tags: [
-      "Adobe Illustrator",
-      "Brand Identity",
-      "Visual Design",
-      "Mockups",
-    ],
+    tags: ["Adobe Illustrator", "Brand Identity", "Visual Design", "Mockups"],
     image: `${import.meta.env.BASE_URL}merkur-mockup.png`,
     detailImages: [
-      `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
-      `${import.meta.env.BASE_URL}hoomie-phones-mockup.jpg`,
-      `${import.meta.env.BASE_URL}hoomie-styletile.svg`,
-      `${import.meta.env.BASE_URL}hoomie-moodboard.svg`,
+      `${import.meta.env.BASE_URL}merkur-sign.png`,
+      `${import.meta.env.BASE_URL}merkur-badge.png`,
+      `${import.meta.env.BASE_URL}merkur-logo.svg`,
     ],
-    links: [
-    ],
+    links: [],
   },
 ];
 
