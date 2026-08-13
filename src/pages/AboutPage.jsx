@@ -25,7 +25,11 @@ function AboutPage() {
           </p>
         </div>
       </section>
-      <img className="portraet" alt="portræt" src="public/portraet.png" />
+      <img
+        className="portraet"
+        alt="portræt"
+        src={`${import.meta.env.BASE_URL}portraet.png`}
+      />
     </div>
   );
 }
