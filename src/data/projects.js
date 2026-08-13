@@ -7,15 +7,16 @@ const projects = [
       "Webapp i mobil-first design, som samler opgaver, indkøb og planer under samme tag.",
     description:
       "Hoomie er en app, der hjælper roommates med at organisere deres hverdag og holde styr på opgaver, indkøb, planer m.m. Redigér, slet og tilføj opgaver, og få et overblik over, hvem der har gjort hvad. Appen er bygget med React og Vite, og er hostet på GitHub Pages.",
-    tags: ["React & Vite", "Web Application", "CRUD"],
+    tags: ["React & Vite", "Web Application", "CRUD", "Figma", "React Router", "Supabase"],
     image: `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
     detailImages: [
       `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
-      `${import.meta.env.BASE_URL}hoomie-mockup.png`,
+      `${import.meta.env.BASE_URL}hoomie-phones-mockup.jpg`,
+      `${import.meta.env.BASE_URL}hoomie-styletile.svg`,
     ],
     links: [
       {
-        label: "Udforsk selv Hoomie",
+        label: "Udforsk projekt",
         href: "https://sebbbenator.github.io/hoomie/",
       },
       {
