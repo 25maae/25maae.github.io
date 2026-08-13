@@ -25,10 +25,6 @@ function AboutPage() {
           </p>
         </div>
       </section>
-      <h2>Martin udefra</h2>
-      <p className="lead">
-        I forbindelse til mit arbejde med digitale løsninger.
-      </p>
       <img className="portraet" alt="portræt" src="public/portraet.png" />
     </div>
   );

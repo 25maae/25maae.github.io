@@ -17,7 +17,7 @@ function HomePage() {
 
       <section className="section">
         <div className="section-heading">
-          <h2>Udvalgte projekter</h2>
+          <h2>Nyeste projekter</h2>
         </div>
 
         <div className="project-grid">
