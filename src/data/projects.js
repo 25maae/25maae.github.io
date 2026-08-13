@@ -20,6 +20,7 @@ const projects = [
       `${import.meta.env.BASE_URL}hoomie-mockup.jpg`,
       `${import.meta.env.BASE_URL}hoomie-phones-mockup.jpg`,
       `${import.meta.env.BASE_URL}hoomie-styletile.svg`,
+      `${import.meta.env.BASE_URL}hoomie-moodboard.svg`,
     ],
     links: [
       {
