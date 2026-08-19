@@ -17,13 +17,6 @@ function AboutPage() {
           <h2>Tools</h2>
           <p>React, HTML, CSS, JavaScript, Figma, Adobe programmer.</p>
         </div>
-        <div>
-          <h2>Jeg er nysgerrig på</h2>
-          <p>
-            Brugeroplevelser, visuel identitet og hvordan kode bliver til noget
-            brugbart.
-          </p>
-        </div>
       </section>
       <img
         className="portraet"
