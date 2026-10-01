@@ -332,8 +332,8 @@ p {
   height: 12.5rem;
   object-fit: cover;
   opacity: 0.95;
-  left: 30rem;
-  bottom: 55rem;
+  left: 45rem;
+  bottom: 32em;
   position: relative;
   transform: scale(3.8);
 }
