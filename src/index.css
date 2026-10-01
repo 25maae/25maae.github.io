@@ -328,11 +328,14 @@ p {
 }
 
 .portraet {
-  width: 70%;
+  width: 10%;
+  height: 12.5rem;
+  object-fit: cover;
   opacity: 0.95;
-  left: 30rem;
-  bottom: 55rem;
+  left: 45rem;
+  bottom: 40rem;
   position: relative;
+  transform: scale(3.8);
 }
 
 @media (max-width: 1080px) {
