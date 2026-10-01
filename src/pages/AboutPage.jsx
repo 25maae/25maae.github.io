@@ -13,9 +13,40 @@ function AboutPage() {
         detaljer og en drivkraft i at bringe idéer til live.
       </p>
       <section className="info-list" aria-label="Om mig detaljer">
-        <div>
-          <h2>Tools</h2>
-          <p>React, HTML, CSS, JavaScript, Figma, Adobe programmer.</p>
+        <h2>Tools</h2>
+        <div className="about-tools">
+          <img className="figma-logo"
+            alt="Figma logo"
+            src={`${import.meta.env.BASE_URL}figma-logo.svg`}
+          />
+          <img className="github-logo"
+            alt="GitHub logo"
+            src={`${import.meta.env.BASE_URL}github-logo.svg`}
+          />
+          <img className="html-logo"
+            alt="HTML logo"
+            src={`${import.meta.env.BASE_URL}html-logo.svg`}
+          />
+          <img className="css-logo"
+            alt="CSS logo"
+            src={`${import.meta.env.BASE_URL}css-logo.svg`}
+          />
+          <img className="react-logo"
+            alt="React logo"
+            src={`${import.meta.env.BASE_URL}react-logo.svg`}
+          />
+          <img className="supabase-logo"
+            alt="Supabase logo"
+            src={`${import.meta.env.BASE_URL}supabase-logo.svg`}
+          />
+          <img className="illustrator-logo"
+            alt="illustrator logo"
+            src={`${import.meta.env.BASE_URL}illustrator-logo.svg`}
+          />
+          <img className="photoshop-logo"
+            alt="Photoshop logo"
+            src={`${import.meta.env.BASE_URL}photoshop-logo.svg`}
+          />
         </div>
       </section>
       <img

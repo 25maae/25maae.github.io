@@ -95,7 +95,7 @@ textarea {
 .page {
   width: min(100% - 2rem, 1120px);
   margin: 0 auto;
-  padding: 3rem 0 5rem;
+  padding: 3rem 0 0 0rem;
 }
 
 .narrow {
@@ -275,7 +275,6 @@ p {
 
 .info-list {
   display: grid;
-  gap: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -333,9 +332,21 @@ p {
   object-fit: cover;
   opacity: 0.95;
   left: 45rem;
-  bottom: 32em;
+  bottom: 30em;
   position: relative;
   transform: scale(3.8);
+}
+
+.about-tools {
+    flex-wrap: wrap;
+    gap: 1rem;
+    display: flex;
+}
+
+.GitHub {
+    flex-wrap: wrap;
+    gap: 1rem;
+    display: flex;
 }
 
 @media (max-width: 1080px) {
