@@ -6,9 +6,7 @@ function ContactPage() {
 
       <ul className="contact-list">
         <li>
-          <a href="mailto:martinhammerum2@gmail.com">
-            Mail
-          </a>
+          <a href="mailto:martinhammerum2@gmail.com">Mail</a>
         </li>
         <li>
           <a
@@ -17,6 +15,11 @@ function ContactPage() {
             target="_blank"
           >
             LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/25maae" rel="noreferrer" target="_blank">
+            GitHub
           </a>
         </li>
       </ul>
