@@ -13,6 +13,7 @@ function HomePage() {
           Multimediedesign-studerende med fokus på digitale løsninger,
           brugeroplevelser og visuel identitet.
         </p>
+        <img src={`${import.meta.env.BASE_URL}pb-bw-75.png`} alt="Profil billede" className="pb-img" />
       </section>
 
       <section className="section">

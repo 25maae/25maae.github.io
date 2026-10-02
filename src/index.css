@@ -104,10 +104,9 @@ textarea {
 
 .hero-section {
   display: grid;
-  gap: 1.5rem;
   align-content: center;
   min-height: 58svh;
-  padding: 11.5rem 0;
+  padding: 7rem 0;
 }
 
 .section {
@@ -337,6 +336,19 @@ p {
   transform: scale(3.8);
 }
 
+.pb-img
+{
+  width: 15%;
+  height: 12.5rem;
+  object-fit: cover;
+  opacity: 0.95;
+  left: 46.5rem;
+  bottom: 15em;
+  position: relative;
+  transform: scale(3.5);
+  opacity: 75%;
+}
+
 .about-tools {
     flex-wrap: wrap;
     gap: 1rem;
@@ -351,6 +363,12 @@ p {
 
 @media (max-width: 1080px) {
   .portraet {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .pb-img {
     display: none;
   }
 }
