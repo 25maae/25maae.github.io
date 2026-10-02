@@ -13,7 +13,12 @@ function HomePage() {
           Multimediedesign-studerende med fokus på digitale løsninger,
           brugeroplevelser og visuel identitet.
         </p>
-        <img src={`${import.meta.env.BASE_URL}pb-bw-75.png`} alt="Profil billede" className="pb-img" />
+        <img
+          src={`${import.meta.env.BASE_URL}pb-bw-75.png`}
+          alt="Profil billede"
+          className="pb-img"
+          loading="lazy"
+        />
       </section>
 
       <section className="section">
@@ -24,7 +29,7 @@ function HomePage() {
         <div className="project-grid">
           {featuredProjects.map((project) => (
             <article className="project-card" key={project.slug}>
-              <img src={project.image} alt={`Preview af ${project.title}`} />
+              <img src={project.image} alt={`Preview af ${project.title}`} loading="lazy" />
               <div className="project-card-content">
                 <p className="eyebrow">{project.year}</p>
                 <h3>{project.title}</h3>
