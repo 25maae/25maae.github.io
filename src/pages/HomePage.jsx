@@ -32,7 +32,7 @@ function HomePage() {
               <img src={project.image} alt={`Preview af ${project.title}`} loading="lazy" />
               <div className="project-card-content">
                 <p className="eyebrow">{project.year}</p>
-                <h3>{project.title}</h3>
+                <h2>{project.title}</h2>
                 <p>{project.summary}</p>
                 <Link to={`/projects/${project.slug}`}>Læs mere</Link>
               </div>

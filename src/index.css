@@ -27,6 +27,7 @@
   -moz-osx-font-smoothing: grayscale;
   --text-color: #212529;
   --brand-color: #540b0e;
+  --white: #fffaf3;
   --brand-font: "Phudu-Bold", sans-serif;
   --text-font: "Rethink", ui-sans-serif;
   --sub-font: "BebasNeue", ui-sans-serif;
@@ -194,7 +195,7 @@ p {
   min-height: 2.75rem;
   border: 1px solid var(--text-color);
   border-radius: 999px;
-  color: #ffffff;
+  color: var(--white);
   background: var(--text-color);
   padding: 0.7rem 1rem;
   font-weight: 700;
@@ -212,19 +213,23 @@ p {
 }
 
 .project-card {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
   overflow: hidden;
-  background: #fffaf3;
+  background: var(--white);
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .project-card img {
   width: 100%;
+  height: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
 }
 
 .project-card-content {
-  padding: 1.1rem;
+  padding: 1.5rem;
+  align-self: center;
 }
 
 .project-card a {
@@ -265,9 +270,8 @@ p {
 
 .tag-list li {
   border: 1px solid #ded6ca;
-  border-radius: 999px;
-  background: #ffffff;
-  color: #475569;
+  background: var(--white);
+  color: var(--text-color);
   padding: 0.35rem 0.7rem;
   font-size: 0.9rem;
   font-weight: 700;
@@ -366,10 +370,8 @@ p {
   .portraet {
     display: none;
   }
-}
 
-@media (max-width: 1080px) {
-  .pb-img {
+    .pb-img {
     display: none;
   }
 }
@@ -391,6 +393,15 @@ p {
   .hero-section {
     min-height: auto;
     padding-top: 2rem;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    aspect-ratio: auto;
+    min-height: 0;
   }
 }
 
