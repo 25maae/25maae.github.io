@@ -1,6 +1,90 @@
 const projects = [
   {
-    slug: "Hoomie",
+    slug: "la-rouge-doccasion",
+    title: "La Rouge / d'occasion",
+    year: "2026",
+    summary: "Secondhand subbrand for La Rouge.",
+    description:
+      "D'occasion er et subbrand af La Rouge, der fokuserer på deres secondhand tøj og accessoires. Fokus har været at udvikle en ny visuel identitet, der afspejler brandets værdier og vision kombineret med en optimering af brugeroplevelsen på deres webshop.",
+    tags: [
+      "Figma",
+      "Optimization",
+      "Subbrand Development",
+      "UI/UX design",
+      "Prototyping",
+    ],
+    image: `${import.meta.env.BASE_URL}doccasion-mockup.jpg`,
+    detailImages: [`${import.meta.env.BASE_URL}doccasion-mockup.jpg`],
+    links: [
+      {
+        label: "Udforsk projekt",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=225-3&t=aePrUGs1dz7a7l2A-1",
+      },
+      {
+        label: "Figma prototype",
+        href: "https://www.figma.com/proto/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=513-12734&viewport=-1872%2C-182%2C0.18&t=HE92vCuuWpAQG0iM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=513%3A12734&show-proto-sidebar=1&page-id=225%3A3",
+      },
+    ],
+  },
+  {
+    slug: "vuuh",
+    title: "Vuuh",
+    year: "2026",
+    summary: "Optimering af onboadring for Shopify applikationen Vuuh.",
+    description:
+      "Vuuh er en Shopify applikation, der hjælper e-commerce virksomheder med at håndtere deres produktdata. Fokus har været at optimere deres onboarding flow, så oplevelsen for brugerne bliver mere intuitivt og brugervenligt.",
+    tags: [
+      "Figma",
+      "Optimization",
+      "Onboarding",
+      "UI/UX design",
+      "Prototyping",
+      "Lottie",
+    ],
+    image: `${import.meta.env.BASE_URL}vuuh-mockup.jpg`,
+    detailImages: [`${import.meta.env.BASE_URL}vuuh-mockup.jpg`],
+    links: [
+      {
+        label: "Udforsk projekt",
+        href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=hsWXzqC9CemZTubz-1",
+      },
+      {
+        label: "Figma prototype",
+        href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2428-9026&viewport=1217%2C362%2C0.21&t=rFFT8OpWSnVChdUw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2428%3A9026&page-id=2137%3A198",
+      },
+    ],
+  },
+  {
+    slug: "mellemrum",
+    title: "Mellemrum",
+    year: "2026",
+    summary:
+      "Optimering af eventplatformen Mellemrum, med fokus på brugeroplevelse, design, accessibility mm.",
+    description:
+      "Mellemrum er en eventplatform, der tilbyder en bred vifte af events og oplevelser. Fokus har været at optimere siderne så brugeroplevelsen, designet af platformen, accessibility mm. forbedres og brugerne samt andre udviklere har bedre mulighed for at udforske og arbejde med platformen.",
+    tags: [
+      "React",
+      "Optimization",
+      "CRUD",
+      "Accessibility",
+      "Supabase",
+      "Backend",
+    ],
+    image: `${import.meta.env.BASE_URL}mellemrum-mockup.jpg`,
+    detailImages: [`${import.meta.env.BASE_URL}mellemrum-mockup.jpg`],
+    links: [
+      {
+        label: "Udforsk projekt",
+        href: "https://25maae.github.io/mellemrum/",
+      },
+      {
+        label: "GitHub repository",
+        href: "https://github.com/25maae/mellemrum",
+      },
+    ],
+  },
+  {
+    slug: "hoomie",
     title: "Hoomie",
     year: "2026",
     summary:
