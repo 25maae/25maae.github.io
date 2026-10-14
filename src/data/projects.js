@@ -18,11 +18,11 @@ const projects = [
     links: [
       {
         label: "Udforsk projekt",
-        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=225-3&t=aePrUGs1dz7a7l2A-1",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=721-6304",
       },
       {
         label: "Figma prototype",
-        href: "https://www.figma.com/proto/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=513-12734&viewport=-1872%2C-182%2C0.18&t=HE92vCuuWpAQG0iM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=513%3A12734&show-proto-sidebar=1&page-id=225%3A3",
+        href: "https://www.figma.com/proto/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=513-12734&viewport=-2134%2C-188%2C0.22&t=azMIAeRv3txJ5ZNO-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=513%3A12734&show-proto-sidebar=1&page-id=225%3A3",
       },
     ],
   },
@@ -46,7 +46,7 @@ const projects = [
     links: [
       {
         label: "Udforsk projekt",
-        href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=hsWXzqC9CemZTubz-1",
+        href: "https://www.figma.com/deck/1ZUGhZqIVvQELxucBe6Jci",
       },
       {
         label: "Figma prototype",
