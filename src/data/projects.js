@@ -81,6 +81,14 @@ const projects = [
         label: "GitHub repository",
         href: "https://github.com/25maae/mellemrum",
       },
+      {
+        label: "Udforsk projekt før ændringerne",
+        href: "https://cederdorff.com/mellemrum/",
+      },
+      {
+        label: "Audits",
+        href: "https://docs.google.com/document/d/1DYcFQU7pyaRJMI1kW5dCOu6093KDgnA9AGXUL9N-YHM/edit?usp=sharing",
+      },
     ],
     content: [
       {
@@ -105,11 +113,47 @@ const projects = [
       },
       {
         type: "text",
-        text: "Her kan du skrive tekst om projektet.",
+        text: "Før blev der hentet data fra Supabase uden at blive fordelt på relaterede tabeller. Dette resulterede i en uoverskuelig supabase med en masse data samlet et sted og en kode uden en præcis sti til dataen. I Supabase er dataen delt ud i tre tabeller og koden er ændret i navngivning så dataen nu findes i ”venues”, ”registrations” samt ”events” tabellerne.",
       },
       {
         type: "image",
         src: `${import.meta.env.BASE_URL}audit-1.jpg`,
+      },
+      {
+        type: "subheading",
+        text: "Audit 2 - Tilmeldingsflow",
+      },
+      {
+        type: "text",
+        text: "Før kunne brugerne ikke tilmelde sig de forskellige events, hvilket resulterede i, at brugerne ikke var garanteret at deltage i de events de ønskede. Ift. arrangørerne så havde de ikke et ordentligt overblik over deltagerne, og hvilke events de var tilmeldt. Løsningen på dette var at få lavet en tydelige feedback succes-besked samt registreringer i Supabase så der kunne laves en forbindelse mellem deltager og event.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}audit-2.jpg`,
+      },
+      {
+        type: "subheading",
+        text: "Audit 3 - Tilmeldingsmodal",
+      },
+      {
+        type: "text",
+        text: "Før var guiden, ift. hvad der gik galt i inputfeltet for brugerne ret utydelig. Hvis man ville skrive sig op til et event, fik man ikke noget feedback på, hvad der skulle udfyldes i input felterne. Løsningen på dette var kode en feedback der, giver forståelig hjælp, rigtig input-type og konkret fejl + forbindelse.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}audit-3.jpg`,
+      },
+      {
+        type: "text",
+        text: "Alle audits kan findes ved at klikke på Audits knappen i toppen af siden.",
+      },
+      {
+        type: "text",
+        text: "Ift. forretningspotentiale så er optimeringerne med til at sikre flere gennemførte tilmeldinger, mere aktivitet og flere brugere samt bedre anmeldelse af platformen. For udviklerne betyder det færre fejl, bedre overblik og struktur, hurtigere eksekvering og effektiv fejlfinding. For brugerne betyder det en mere gnidningsfri oplevelse, bedre visuelt overblik, hurtigere rejse gennem hjemmesiden, bredere brugergruppe og tilfredsstillende feedback, der sikrer en garanteret tilmelding.",
+      },
+      {
+        type: "text",
+        text: "Næste skridt for Mellemrum er endnu mere optimering da platformen stadig indeholder småfejl såsom passende navngivning af labels, bedre kontrast mellem farver, stresstest ift. antal events der i fremtiden kunne tilføjes og meget mere. Dette er fravalg jeg også har været nødt til at prioritere, eftersom de andre optimeringer har været vigtigere i min optik.",
       },
     ],
   },
