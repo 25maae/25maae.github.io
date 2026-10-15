@@ -53,6 +53,44 @@ const projects = [
         href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2428-9026&viewport=1217%2C362%2C0.21&t=rFFT8OpWSnVChdUw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2428%3A9026&page-id=2137%3A198",
       },
     ],
+    content: [
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}vuuh-mockup.jpg`,
+      },
+      {
+        type: "text",
+        text: "Anden case ud af de tre handler om optimeringen af onbordingsflowet for Shopify applikationen Vuuh, som håndterer e-commerce virksomheders produktdata. Udfordringen hos Vuuh er, at den nuværende onboardingsoplevelse for førstegangsbrugere ikke virker gnidningsfrit eller intuitivt og der derfor kan opstå misforståelser og frafald i rejsen. Udfordringen i Vuuh handler altså ikke om, hvorvidt brugeren kan udføre de enkelte handlinger, men om hvorvidt brugeren forstår, hvad næste skridt er, hvorfor det skal udføres og om systemet har registeret handlingen korrekt. I forbindelse med onboardingen er der også opstillet to forskellige målgrupper, hvor løsningen gerne skulle være simpel nok for målgruppen der primært arbejder med den fysiske butik, uden at blive for langsom eller begrænset for målgruppen der primært arbejder med e-commerce. Fokus har været på at analysere, redesigne og kvalificere onboardingsoplevelsen hos Vuuh og formålet med opgaven er derfor at forbedre oplevelsen, som gerne skulle resultere i en positiv indflydelse på Vuuhs konvention og kommercielle vækst.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}vuuh-front-page.jpg`,
+      },
+      {
+        type: "text",
+        text: "På tværs af den Heuristiske Evaluering, Cognitive Walkthrough og Finding Cards er det tydeligt at de kritiske problemer er som følger: Vuuh fortæller ikke konsekvent brugeren, hvor de er, hvad næste skridt er, hvorfor det skal gøres og om handlingen var en succes. Prioriteringen i dette projekt har derfor været at udvikle en guide/onboarding der sørger for, at førstegangsbrugeren kommer igennem processen fra start til slut. Dette sørger også for, at begge målgrupper er med, eftersom målgruppen med den fysiske butik bliver guidet igennem uden mulighed for at begå fejl eller komme på et sidespor samtidig med, at målgruppen der primært arbejder med e-commerce har mulighed for at springe onboardingen over med f.eks. ”I’ll do this later” eller ”Go to dashboard” knapperne.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}vuuh-steps.jpg`,
+      },
+      {
+        type: "text",
+        text: "Det er vigtigt at brugeren har et visuelt anker som de hele tiden kan finde og genkender, som viser dem hvor de er i onboarding-processen. Med progress trackeren undgås forvirring om brugerens næste step og hvilke steps de succesfuldt har udført. Det skal være visuelt tydeligt hvilke skridt i onboarding-processen brugeren allerede har gennemført, som matcher Progress Trackeren. Derfor er f.eks. komponenten ”connect to Shopify” også gjort grå efter processen. Succes og fejlbeskeder er også vigtige for brugerens rejse gennem Vuuh onboarding så pop up beskeder/system respons er også blevet tilføjet. Derudover skal brugeren også, genne processen, opdateres på, at specifikke handlinger loader, lykkes eller fejler ved hjælp af loading og states. Når brugeren er færdig med onboardingen skal de selv udforske resten af Vuuh ved hjælp af små scopede in-context guidance til prioriterede sider. Udover design er der også tænkt autofill ift. den data der skal bruges for at forbinde til Shopify. En forbedring der sikrer, at dataen bliver udfyldt korrekt, men også hurtigere så brugeren sparer tid.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}vuuh-components.jpg`,
+      },
+      {
+        type: "text",
+        text: "De nye optimeringer er specifikt valgte samt prioriteret da de konkret resulterer i en klar og tydelig retning for brugeren da de nu hele tiden ved hvad næste handling er. Dermed er der også tydelig feedback da systemet hele tiden viser om en handling lykkedes. Derudover ved brugeren nu også, at de skal trykke videre fra Shopify for at forbinde til Vuuh. Optimeringerne skulle gerne være med til at skabe værdi for både Vuuh og deres kunder. Kunderne får en gnidningsfri og intuitiv oplevelse, der sparer deres kunder for tid. Vuuh reducerer også henvendelser fra deres kunder ift. de problemer og fejl samt sparer tid og penge på teknisk support. Dette kunne dermed også sikre Vuuh endnu flere tilmeldinger.",
+      },
+      {
+        type: "text",
+        text: "Næste skridt vil være at teste, om first-time users faktisk kan gennemføre onboarding uden hjælp og forstå sammenhængen mellem Shopify, Vuuh og produktdata. På den måde kan man finde frem til om optimeringerne har gjort en forskel eller om der skal optimeres yderligere eller på andre måder.",
+      },
+    ],
   },
   {
     slug: "mellemrum",
