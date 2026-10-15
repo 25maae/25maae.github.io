@@ -28,6 +28,10 @@ const projects = [
         label: "Figma præsentation",
         href: "https://www.figma.com/deck/k9t9S5ReQ6FOBMath4fX5P",
       },
+      {
+        label: "Branddeck",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=721-6304&t=wQCrxhAEY6CIGEQf-1",
+      },
     ],
     content: [
       {
@@ -36,7 +40,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Tredje og sidste case handler om La Rouge, et dansk modebrand med fokus på tøj der supplerer kvinden som hun er. Udfordringen hos Le Rouge ligger i deres secondhand / re-commerce univers, hvor kunder kan sælge det tøj fra virksomheden, som de ikke længere bruger. Initiativet lever lidt i skyggen af hovedbrandet, uden sin egen visuelle identitet, tone of voice eller dedikerede kommunikationsindsats. Dette betyder altså, at konceptets potentiale ikke bliver udnyttet, ligesom andre danske virksomheder såsom MOS MOSH og Skagen Clothing ellers viser kan løftes til en selvstændig forretning med sit eget udtryk, når det får plads til at leve for sig selv.",
+        text: "Tredje og sidste case handler om La Rouge, et dansk modebrand med fokus på tøj der supplerer kvinden som hun er. Udfordringen hos Le Rouge ligger i deres secondhand/re-commerce univers, hvor kunder kan købe og sælge tøj fra virksomheden, som de ikke længere bruger. Initiativet lever lidt i skyggen af hovedbrandet, uden sin egen visuelle identitet, tone of voice eller dedikerede kommunikationsindsats. Dette betyder altså, at konceptets potentiale ikke bliver udnyttet, ligesom andre danske virksomheder såsom MOS MOSH og Skagen Clothing ellers viser kan løftes til en selvstændig forretning med sit eget udtryk, når det får plads til at leve for sig selv.",
       },
       {
         type: "image",
@@ -44,7 +48,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "På baggrund af udviklingen af subbrandet er der lavet desk research, hvor forskellige indsigter har lagt grundlaget for målgruppevalg, designsystem, general redesign mm. Med desk researchen kunne vi konstatere, at den nuværende La Rouge målgruppe ikke engagerer sig i recommerce. En ny målgruppe vil altså bedre kunne sælge brugt tøj til en lavere pris, da den yngre befolkning er dem, der køber mest secondhand. Ud fra en SWOT-analyse fandt vi også frem til, at virksomhedens nuværende svagheder primært ligger i en forholdsvis utydelig identitet især for den yngre målgruppe, der gerne skulle overtage tøjet. Re-commerce delen forsvinder også lidt i hovedbrandet og det bliver forvirrende når det står under samme navn. Dette resulterede også i, at tøjet oftere bliver solgt gennem Vinted frem for deres egen hjemmeside, hvilket La Rouge ikke får nogen fortjeneste for. Som styrke har La Rouge dog kvalitet, feminin og rebelsk baggrund, tidsløshed og ansvarlighed, hvilket er værdifulde elementer, som kan overdrages til D’occasion.",
+        text: "På baggrund af udviklingen af subbrandet er der lavet desk research, hvor forskellige indsigter har lagt grundlaget for målgruppevalg, designsystem, general redesign mm. Med desk researchen kunne vi konstatere, at den nuværende La Rouge målgruppe ikke engagerer sig i recommerce. En ny målgruppe vil altså bedre kunne sælge brugt tøj til en lavere pris, da den yngre befolkning er dem, der køber mest secondhand. Ud fra en SWOT-analyse fandt vi også frem til, at virksomhedens nuværende svagheder primært ligger i en forholdsvis utydelig identitet, især for den yngre målgruppe, der gerne skulle overtage tøjet. Re-commerce delen forsvinder også lidt i hovedbrandet og det bliver forvirrende når det står under samme navn. Dette resulterede også i, at tøjet oftest bliver solgt gennem Vinted frem for deres egen hjemmeside, hvilket La Rouge ikke får nogen fortjeneste for. Som styrke har La Rouge dog kvalitet, feminin og rebelsk baggrund, tidsløshed og ansvarlighed, hvilket er værdifulde elementer, som kan overdrages til D’occasion.",
       },
       {
         type: "image",
@@ -52,7 +56,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Efter vores research begyndte vi med design og den visuelle identitet. Resultatet er D’occasion, subbrandet til La Rouge, som omhandler køb og salg af La Rouge tøj. D’occasions tone of voice er mere legende, uformel, lidt ukonventionel og rebelsk, men holder stadig fast i styrkerne fra La Rouge. Kunden skal altså aldrig være i tvivl om, hvor D’occasion kommer fra. Derfor bliver tonen også lidt frækkere og mere direkte og målet er at fortælle tøjets historie. På denne måde kan subbrandet markedsføres og appellere til en yngre målgruppe, som overtager tøjet fra den tidligere, ældre målgruppe. Ift. værdiskabelse og forretningspotentiale så kan det nye subbrand sikre La Rouge en mere bæredygtig virksomhed, mere omsætning samt en større kundebase. Forhåbentligt har La Rouge også mulighed for at få solgt tøjet gennem dem deres egen hjemmeside frem for Vinted og andre sider.",
+        text: "Efter vores research begyndte vi med design og den visuelle identitet. Resultatet er D’occasion, subbrandet til La Rouge, som omhandler køb og salg af La Rouge tøj. D’occasions tone of voice er mere legende, uformel, lidt ukonventionel og rebelsk, men holder stadig fast i styrkerne fra La Rouge. Kunden skal altså aldrig være i tvivl om, hvor D’occasion kommer fra. Derfor bliver tonen også lidt frækkere og mere direkte og målet er at fortælle tøjets historie. På denne måde kan subbrandet markedsføres og appellere til en yngre målgruppe, som overtager tøjet fra den tidligere, ældre målgruppe. Ift. værdiskabelse og forretningspotentiale så kan det nye subbrand sikre La Rouge en mere bæredygtig virksomhed, mere omsætning samt en større kundebase. Forhåbentligt har La Rouge også mulighed for at få solgt tøjet gennem deres egen hjemmeside frem for Vinted og andre sider.",
       },
       {
         type: "image",
@@ -110,7 +114,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Anden case ud af de tre handler om optimeringen af onbordingsflowet for Shopify applikationen Vuuh, som håndterer e-commerce virksomheders produktdata. Udfordringen hos Vuuh er, at den nuværende onboardingsoplevelse for førstegangsbrugere ikke virker gnidningsfrit eller intuitivt og der derfor kan opstå misforståelser og frafald i rejsen. Udfordringen i Vuuh handler altså ikke om, hvorvidt brugeren kan udføre de enkelte handlinger, men om hvorvidt brugeren forstår, hvad næste skridt er, hvorfor det skal udføres og om systemet har registeret handlingen korrekt. I forbindelse med onboardingen er der også opstillet to forskellige målgrupper, hvor løsningen gerne skulle være simpel nok for målgruppen der primært arbejder med den fysiske butik, uden at blive for langsom eller begrænset for målgruppen der primært arbejder med e-commerce. Fokus har været på at analysere, redesigne og kvalificere onboardingsoplevelsen hos Vuuh og formålet med opgaven er derfor at forbedre oplevelsen, som gerne skulle resultere i en positiv indflydelse på Vuuhs konvention og kommercielle vækst.",
+        text: "Anden case ud af de tre handler om optimeringen af onbordingsflowet for Vuuh. Udfordringen hos Vuuh er, at den nuværende onboardingsoplevelse for førstegangsbrugere ikke virker gnidningsfrit eller intuitivt og der derfor kan opstå misforståelser og frafald i rejsen. Udfordringen i Vuuh handler altså ikke om, hvorvidt brugeren kan udføre de enkelte handlinger, men om hvorvidt brugeren forstår, hvad næste skridt er, hvorfor det skal udføres og om systemet har registeret handlingen korrekt. I forbindelse med onboardingen er der også opstillet to forskellige målgrupper, hvor løsningen gerne skulle være simpel nok for målgruppen der primært arbejder med den fysiske butik, uden at blive for langsom eller begrænset for målgruppen der primært arbejder med e-commerce. Fokus har været på at analysere, redesigne og kvalificere onboardingsoplevelsen hos Vuuh og formålet med opgaven er derfor at forbedre oplevelsen, som gerne skulle resultere i en positiv indflydelse på Vuuhs konvention og kommercielle vækst.",
       },
       {
         type: "image",
@@ -126,7 +130,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Det er vigtigt at brugeren har et visuelt anker som de hele tiden kan finde og genkender, som viser dem hvor de er i onboarding-processen. Med progress trackeren undgås forvirring om brugerens næste step og hvilke steps de succesfuldt har udført. Det skal være visuelt tydeligt hvilke skridt i onboarding-processen brugeren allerede har gennemført, som matcher Progress Trackeren. Derfor er f.eks. komponenten ”connect to Shopify” også gjort grå efter processen. Succes og fejlbeskeder er også vigtige for brugerens rejse gennem Vuuh onboarding så pop up beskeder/system respons er også blevet tilføjet. Derudover skal brugeren også, genne processen, opdateres på, at specifikke handlinger loader, lykkes eller fejler ved hjælp af loading og states. Når brugeren er færdig med onboardingen skal de selv udforske resten af Vuuh ved hjælp af små scopede in-context guidance til prioriterede sider. Udover design er der også tænkt autofill ift. den data der skal bruges for at forbinde til Shopify. En forbedring der sikrer, at dataen bliver udfyldt korrekt, men også hurtigere så brugeren sparer tid.",
+        text: "Det er vigtigt at brugeren har et visuelt anker som de hele tiden kan finde og genkender, der viser dem, hvor de er i onboarding-processen. Med progress trackeren undgås forvirring om brugerens næste step, og hvilke steps de succesfuldt har udført. Det skal være visuelt tydeligt, hvilke skridt i onboarding-processen brugeren allerede har gennemført, som matcher Progress Trackeren. Derfor er f.eks. komponenten ”connect to Shopify” også gjort grå efter processen. Succes og fejlbeskeder er også vigtige for brugerens rejse gennem Vuuhs onboarding så pop up beskeder/system respons er også blevet tilføjet. Derudover skal brugeren også, gennem processen, opdateres på, at specifikke handlinger loader, lykkedes eller fejlede ved hjælp af loading og states. Når brugeren er færdig med onboardingen skal de selv udforske resten af Vuuh ved hjælp af små scopede in-context guidance til prioriterede sider. Udover design er der også tænkt autofill ift. den data der skal bruges for at forbinde til Shopify. En forbedring der sikrer, at dataen bliver udfyldt korrekt, men også hurtigere så brugeren sparer tid.",
       },
       {
         type: "image",
@@ -134,7 +138,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "De nye optimeringer er specifikt valgte samt prioriteret da de konkret resulterer i en klar og tydelig retning for brugeren da de nu hele tiden ved hvad næste handling er. Dermed er der også tydelig feedback da systemet hele tiden viser om en handling lykkedes. Derudover ved brugeren nu også, at de skal trykke videre fra Shopify for at forbinde til Vuuh. Optimeringerne skulle gerne være med til at skabe værdi for både Vuuh og deres kunder. Kunderne får en gnidningsfri og intuitiv oplevelse, der sparer deres kunder for tid. Vuuh reducerer også henvendelser fra deres kunder ift. de problemer og fejl samt sparer tid og penge på teknisk support. Dette kunne dermed også sikre Vuuh endnu flere tilmeldinger.",
+        text: "De nye optimeringer er specifikt valgte samt prioriteret da de konkret resulterer i en klar og tydelig retning for brugeren da de nu hele tiden ved, hvad næste handling er. Dermed er der også tydelig feedback da systemet hele tiden viser om en handling lykkedes. Derudover ved brugeren nu også, at de skal trykke videre fra Shopify for at forbinde til Vuuh. Optimeringerne skulle gerne være med til at skabe værdi for både Vuuh og deres kunder. Kunderne får en gnidningsfri og intuitiv oplevelse, der sparer deres kunder for tid. Vuuh reducerer også henvendelser fra deres kunder ift. de problemer og fejl, der kunne opstå, samt sparer tid og penge på teknisk support. Dette kunne dermed også sikre Vuuh endnu flere tilmeldinger.",
       },
       {
         type: "text",
@@ -185,7 +189,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Første case ud af tre handler om lokal kultur- og eventplatformen Mellemrum, en eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer. Udfordringen i dette tilfælde har været, at virksomheden har udviklet en react-prototype, med grundlæggende funktionalitet, dog bygget lidt for hurtigt ift. at afprøve idéen. Koden er altså derfor vanskelig at videreudvikle, brugeroplevelsen er ikke altid konsistent, og løsningen håndterer ikke langsomme svar, manglende data og fejl godt nok. Derudover er der også udfordringer med performance på platformen og ift. data så indeholder datamodellen gentagne oplysninger. Til sidst er tilmeldingsflowet kun påbegyndt, hvilket betyder at tilmelding af og forbindelse til de valgte events ikke registreres optimalt. Fokus har været at optimere siderne så brugeroplevelsen, designet af platformen, accessibility mm. forbedres og brugerne samt andre udviklere har bedre mulighed for at benytte og arbejde med platformen.",
+        text: "Første case ud af tre handler om lokal kultur- og eventplatformen Mellemrum, en eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer. Udfordringen i dette tilfælde har været, at virksomheden har udviklet en react-prototype, med grundlæggende funktionalitet, dog bygget lidt for hurtigt for at afprøve idéen. Koden er altså derfor vanskelig at videreudvikle, brugeroplevelsen er ikke altid konsistent, og løsningen håndterer ikke langsomme svar, manglende data og fejl godt nok. Derudover er der også udfordringer med performance på platformen og ift. data så indeholder datamodellen gentagne oplysninger. Til sidst er tilmeldingsflowet kun påbegyndt, hvilket betyder at tilmelding af og forbindelse til de valgte events ikke registreres optimalt. Fokus har været at optimere siderne så brugeroplevelsen, designet af platformen, accessibility mm. forbedres og brugerne samt andre udviklere har bedre mulighed for at benytte og arbejde med platformen.",
       },
       {
         type: "text",
@@ -225,7 +229,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Før var guiden, ift. hvad der gik galt i inputfeltet for brugerne ret utydelig. Hvis man ville skrive sig op til et event, fik man ikke noget feedback på, hvad der skulle udfyldes i input felterne. Løsningen på dette var kode en feedback der, giver forståelig hjælp, rigtig input-type og konkret fejl + forbindelse.",
+        text: "Før var guiden, ift. hvad der gik galt i inputfeltet for brugerne ret utydelig. Hvis man ville skrive sig op til et event, fik man ikke noget feedback på, hvad der skulle udfyldes i inputfelterne. Løsningen på dette var at kode en tydelig feedback der, giver forståelig hjælp, rigtig input-type og konkret fejl + forbindelse.",
       },
       {
         type: "image",
@@ -241,7 +245,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Næste skridt for Mellemrum er endnu mere optimering da platformen stadig indeholder småfejl såsom passende navngivning af labels, bedre kontrast mellem farver, stresstest ift. antal events der i fremtiden kunne tilføjes og meget mere. Dette er fravalg jeg også har været nødt til at prioritere, eftersom de andre optimeringer har været vigtigere i min optik.",
+        text: "Næste skridt for Mellemrum er endnu mere optimering da platformen stadig indeholder småfejl såsom passende navngivning af labels, bedre kontrast mellem farver, stresstest ift. antal events, der i fremtiden kunne tilføjes og meget mere. Dette er fravalg jeg også har været nødt til ikke at prioritere højt, eftersom de andre optimeringer har været vigtigere i min optik.",
       },
     ],
   },
