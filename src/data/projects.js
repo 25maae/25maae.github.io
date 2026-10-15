@@ -96,7 +96,7 @@ const projects = [
     links: [
       {
         label: "Udforsk projekt",
-        href: "https://www.figma.com/deck/1ZUGhZqIVvQELxucBe6Jci",
+        href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=E2AvjwVOxQBOffVM-1",
       },
       {
         label: "Figma prototype",
