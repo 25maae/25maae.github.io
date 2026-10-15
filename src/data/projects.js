@@ -82,6 +82,36 @@ const projects = [
         href: "https://github.com/25maae/mellemrum",
       },
     ],
+    content: [
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}mellemrum-mockup.jpg`,
+      },
+      {
+        type: "text",
+        text: "Første case ud af tre handler om lokal kultur- og eventplatformen Mellemrum er en eventplatform, hvor brugerne kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer. Udfordringen i dette tilfælde har været, at virksomheden har udviklet en react-prototype, med grundlæggende funktionalitet, dog bygget lidt for hurtigt ift. at afprøve idéen. Koden er altså derfor vanskelig at videreudvikle, brugeroplevelsen er ikke altid konsistent, og løsningen håndterer ikke langsomme svar, manglende data og fejl godt nok. Derudover er der også udfordringer med performance på platformen og ift. data så indeholder datamodellen gentagne oplysninger. Til sidst er tilmeldingsflowet kun påbegyndt, hvilket betyder at tilmelding af og forbindelse til de valgte events ikke registreres optimalt. Fokus har været at optimere siderne så brugeroplevelsen, designet af platformen, accessibility mm. forbedres og brugerne samt andre udviklere har bedre mulighed for at benytte og arbejde med platformen.",
+      },
+      {
+        type: "text",
+        text: "For at finde frem til de relevante optimeringer, udviklede jeg et audit med kategorierne: fund og evidens, konsekvens, forslag, prioritering og verifikation. På baggrund af det kunne jeg gennemgå platformen og dele de forskellige optimeringer ud på diverse kategorier. Der blev samlet set fundet 13 optimeringer, dog med forskellige prioriteringer.",
+      },
+      {
+        type: "heading",
+        text: "Audits",
+      },
+      {
+        type: "subheading",
+        text: "Audit 1 - Gentagende data",
+      },
+      {
+        type: "text",
+        text: "Her kan du skrive tekst om projektet.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}audit-1.jpg`,
+      },
+    ],
   },
   {
     slug: "hoomie",

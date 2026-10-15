@@ -5,6 +5,12 @@ function ProjectPage() {
   const { slug } = useParams();
   const project = projects.find((item) => item.slug === slug);
   const detailImages = project?.detailImages ?? [project?.image].filter(Boolean);
+  const content =
+    project?.content ??
+    detailImages.map((image) => ({
+      type: "image",
+      src: image,
+    }));
 
   if (!project) {
     return (
@@ -48,14 +54,24 @@ function ProjectPage() {
         ))}
       </div>
       <div className="detail-image-gallery">
-        {detailImages.map((image, index) => (
-          <img
-            className="detail-image"
-            src={image}
-            alt={`${project.title} billede ${index + 1}`}
-            key={`${project.slug}-${index}`}
-          />
-        ))}
+        {content.map((item, index) =>
+          item.type === "heading" ? (
+            <h2 key={`${project.slug}-heading-${index}`}>{item.text}</h2>
+          ) : item.type === "subheading" ? (
+            <h3 key={`${project.slug}-subheading-${index}`}>{item.text}</h3>
+          ) : item.type === "text" ? (
+            <p className="project-content-text" key={`${project.slug}-text-${index}`}>
+              {item.text}
+            </p>
+          ) : (
+            <img
+              className="detail-image"
+              src={item.src}
+              alt={item.alt ?? `${project.title} billede ${index + 1}`}
+              key={`${project.slug}-image-${index}`}
+            />
+          ),
+        )}
       </div>
     </article>
   );

@@ -2,7 +2,7 @@ function AboutPage() {
   return (
     <div className="page narrow">
       <h1>Hvem er jeg?</h1>
-      <p className="lead">
+      <p className="lead-about">
         Jeg er Martin, en 23 årig, multimediedesign-studerende med hænderne i
         både design og programmering. Jeg nyder at arbejde med det visuelle samt
         de tanker, der skaber fantastiske brugeroplevelser og jeg sætter stor
