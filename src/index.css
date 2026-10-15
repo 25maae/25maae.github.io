@@ -101,7 +101,7 @@ textarea {
 }
 
 .narrow {
-  width: min(100% - 2rem, 760px);
+  width: min(100% - 2rem, 1080px);
 }
 
 .hero-section {
@@ -118,12 +118,12 @@ textarea {
 .section-heading {
   display: grid;
   gap: 0.5rem;
-  max-width: 640px;
+  max-width: 1080px;
   margin-bottom: 1.5rem;
 }
 
 .intro {
-  max-width: 720px;
+  max-width: 1080px;
 }
 
 .eyebrow {
@@ -145,7 +145,7 @@ p {
 
 h1 {
   font-family: var(--brand-font);
-  max-width: 760px;
+  max-width: 1080px;
   margin-bottom: 1rem;
   color: var(--brand-color);
   font-size: clamp(2.6rem, 8vw, 5.5rem);
@@ -175,9 +175,18 @@ p {
   font-family: var(--text-font);
 }
 
-.hero-text,
+.hero-text {
+  max-width: 800px;
+  font-size: 1.5rem;
+}
+
 .lead {
-  max-width: 680px;
+  max-width: 1080px;
+  font-size: 1.5rem;
+}
+
+.lead-about {
+  max-width: 940px;
   font-size: 1.5rem;
 }
 
@@ -248,7 +257,15 @@ p {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-      margin-top: 2rem;
+  margin-top: 2rem;
+}
+
+.project-content-text {
+  margin: 1rem 0;
+  line-height: 1.6;
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 1.5rem;
 }
 
 .back-link {
@@ -335,14 +352,13 @@ p {
   height: 12.5rem;
   object-fit: cover;
   opacity: 0.95;
-  left: 45rem;
+  left: 61rem;
   bottom: 30em;
   position: relative;
   transform: scale(3.8);
 }
 
-.pb-img
-{
+.pb-img {
   width: 15%;
   height: 12.5rem;
   object-fit: cover;
@@ -355,15 +371,15 @@ p {
 }
 
 .about-tools {
-    flex-wrap: wrap;
-    gap: 1rem;
-    display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: flex;
 }
 
 .GitHub {
-    flex-wrap: wrap;
-    gap: 1rem;
-    display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: flex;
 }
 
 @media (max-width: 1080px) {
@@ -371,7 +387,7 @@ p {
     display: none;
   }
 
-    .pb-img {
+  .pb-img {
     display: none;
   }
 }
@@ -404,4 +420,3 @@ p {
     min-height: 0;
   }
 }
-
