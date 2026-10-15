@@ -175,9 +175,13 @@ p {
   font-family: var(--text-font);
 }
 
-.hero-text,
-.lead {
+.hero-text {
   max-width: 800px;
+  font-size: 1.5rem;
+}
+
+.lead {
+  max-width: 1080px;
   font-size: 1.5rem;
 }
 
