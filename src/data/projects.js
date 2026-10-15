@@ -24,6 +24,52 @@ const projects = [
         label: "Figma prototype",
         href: "https://www.figma.com/proto/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=513-12734&viewport=-1872%2C-182%2C0.18&t=HE92vCuuWpAQG0iM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=513%3A12734&show-proto-sidebar=1&page-id=225%3A3",
       },
+      {
+        label: "Figma præsentation",
+        href: "https://www.figma.com/deck/k9t9S5ReQ6FOBMath4fX5P",
+      },
+    ],
+    content: [
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}doccasion-mockup.jpg`,
+      },
+      {
+        type: "text",
+        text: "Tredje og sidste case handler om La Rouge, et dansk modebrand med fokus på tøj der supplerer kvinden som hun er. Udfordringen hos Le Rouge ligger i deres secondhand / re-commerce univers, hvor kunder kan sælge det tøj fra virksomheden, som de ikke længere bruger. Initiativet lever lidt i skyggen af hovedbrandet, uden sin egen visuelle identitet, tone of voice eller dedikerede kommunikationsindsats. Dette betyder altså, at konceptets potentiale ikke bliver udnyttet, ligesom andre danske virksomheder såsom MOS MOSH og Skagen Clothing ellers viser kan løftes til en selvstændig forretning med sit eget udtryk, når det får plads til at leve for sig selv.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}doccasion-indsigter.jpg`,
+      },
+      {
+        type: "text",
+        text: "På baggrund af udviklingen af subbrandet er der lavet desk research, hvor forskellige indsigter har lagt grundlaget for målgruppevalg, designsystem, general redesign mm. Med desk researchen kunne vi konstatere, at den nuværende La Rouge målgruppe ikke engagerer sig i recommerce. En ny målgruppe vil altså bedre kunne sælge brugt tøj til en lavere pris, da den yngre befolkning er dem, der køber mest secondhand. Ud fra en SWOT-analyse fandt vi også frem til, at virksomhedens nuværende svagheder primært ligger i en forholdsvis utydelig identitet især for den yngre målgruppe, der gerne skulle overtage tøjet. Re-commerce delen forsvinder også lidt i hovedbrandet og det bliver forvirrende når det står under samme navn. Dette resulterede også i, at tøjet oftere bliver solgt gennem Vinted frem for deres egen hjemmeside, hvilket La Rouge ikke får nogen fortjeneste for. Som styrke har La Rouge dog kvalitet, feminin og rebelsk baggrund, tidsløshed og ansvarlighed, hvilket er værdifulde elementer, som kan overdrages til D’occasion.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}doccasion-moodboards.jpg`,
+      },
+      {
+        type: "text",
+        text: "Efter vores research begyndte vi med design og den visuelle identitet. Resultatet er D’occasion, subbrandet til La Rouge, som omhandler køb og salg af La Rouge tøj. D’occasions tone of voice er mere legende, uformel, lidt ukonventionel og rebelsk, men holder stadig fast i styrkerne fra La Rouge. Kunden skal altså aldrig være i tvivl om, hvor D’occasion kommer fra. Derfor bliver tonen også lidt frækkere og mere direkte og målet er at fortælle tøjets historie. På denne måde kan subbrandet markedsføres og appellere til en yngre målgruppe, som overtager tøjet fra den tidligere, ældre målgruppe. Ift. værdiskabelse og forretningspotentiale så kan det nye subbrand sikre La Rouge en mere bæredygtig virksomhed, mere omsætning samt en større kundebase. Forhåbentligt har La Rouge også mulighed for at få solgt tøjet gennem dem deres egen hjemmeside frem for Vinted og andre sider.",
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}doccasion-branddeck.jpg`,
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}doccasion-front-page.jpg`,
+      },
+      {
+        type: "image",
+        src: `${import.meta.env.BASE_URL}doccasion-product-page.jpg`,
+      },
+      {
+        type: "text",
+        text: "Næste skridt for D’occasion vil være markedsføring, bedre hi-fi-prototype eller direkte launch af webshoppen. Derudover kan der passende videreudvikles på designsystemet for generelt at gøre subbrandet endnu stærkere i sin kommunikation og for at gøre Figma filen mere overskuelig for fremtidige meddesignere.",
+      },
     ],
   },
   {
@@ -51,6 +97,10 @@ const projects = [
       {
         label: "Figma prototype",
         href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2428-9026&viewport=1217%2C362%2C0.21&t=rFFT8OpWSnVChdUw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2428%3A9026&page-id=2137%3A198",
+      },
+      {
+        label: "UX Audit summary",
+        href: "https://www.figma.com/deck/1ZUGhZqIVvQELxucBe6Jci",
       },
     ],
     content: [
@@ -135,7 +185,7 @@ const projects = [
       },
       {
         type: "text",
-        text: "Første case ud af tre handler om lokal kultur- og eventplatformen Mellemrum er en eventplatform, hvor brugerne kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer. Udfordringen i dette tilfælde har været, at virksomheden har udviklet en react-prototype, med grundlæggende funktionalitet, dog bygget lidt for hurtigt ift. at afprøve idéen. Koden er altså derfor vanskelig at videreudvikle, brugeroplevelsen er ikke altid konsistent, og løsningen håndterer ikke langsomme svar, manglende data og fejl godt nok. Derudover er der også udfordringer med performance på platformen og ift. data så indeholder datamodellen gentagne oplysninger. Til sidst er tilmeldingsflowet kun påbegyndt, hvilket betyder at tilmelding af og forbindelse til de valgte events ikke registreres optimalt. Fokus har været at optimere siderne så brugeroplevelsen, designet af platformen, accessibility mm. forbedres og brugerne samt andre udviklere har bedre mulighed for at benytte og arbejde med platformen.",
+        text: "Første case ud af tre handler om lokal kultur- og eventplatformen Mellemrum, en eventplatform, hvor brugere kan finde og tilmelde sig koncerter, talks, workshops og andre arrangementer. Udfordringen i dette tilfælde har været, at virksomheden har udviklet en react-prototype, med grundlæggende funktionalitet, dog bygget lidt for hurtigt ift. at afprøve idéen. Koden er altså derfor vanskelig at videreudvikle, brugeroplevelsen er ikke altid konsistent, og løsningen håndterer ikke langsomme svar, manglende data og fejl godt nok. Derudover er der også udfordringer med performance på platformen og ift. data så indeholder datamodellen gentagne oplysninger. Til sidst er tilmeldingsflowet kun påbegyndt, hvilket betyder at tilmelding af og forbindelse til de valgte events ikke registreres optimalt. Fokus har været at optimere siderne så brugeroplevelsen, designet af platformen, accessibility mm. forbedres og brugerne samt andre udviklere har bedre mulighed for at benytte og arbejde med platformen.",
       },
       {
         type: "text",
