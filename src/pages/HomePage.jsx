@@ -5,19 +5,21 @@ function HomePage() {
   const featuredProjects = projects.slice(0, 2);
 
   return (
-    <div className="page">
+    <div className="page home-page">
       <section className="hero-section">
-        <h1>Martin Hammerum Ærensgaard</h1>
-        <h2 className="hero-text">Portfolio 2026</h2>
-        <p className="hero-text">
-          Multimediedesign-studerende med fokus på digitale løsninger,
-          brugeroplevelser og visuel identitet.
-        </p>
+        <div className="home-intro">
+          <p className="eyebrow">Portfolio 2026</p>
+          <h1>Martin Hammerum Ærensgaard</h1>
+          <p className="hero-text">
+            Multimediedesign-studerende med fokus på digitale løsninger,
+            brugeroplevelser og visuel identitet.
+          </p>
+        </div>
         <img
           src={`${import.meta.env.BASE_URL}pb-bw-75.png`}
-          alt="Profil billede"
-          className="pb-img"
-          loading="lazy"
+          alt="Portræt af Martin Hammerum Ærensgaard"
+          className="home-portrait"
+          fetchPriority="high"
         />
       </section>
 
@@ -32,9 +34,9 @@ function HomePage() {
               <img src={project.image} alt={`Preview af ${project.title}`} loading="lazy" />
               <div className="project-card-content">
                 <p className="eyebrow">{project.year}</p>
-                <h2>{project.title}</h2>
+                <h3>{project.title}</h3>
                 <p>{project.summary}</p>
-                <Link to={`/projects/${project.slug}`}>Læs mere</Link>
+                <Link to={`/projects/${project.slug}`}>Se projektet<span className="sr-only"> om {project.title}</span></Link>
               </div>
             </article>
           ))}
