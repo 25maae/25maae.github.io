@@ -2,8 +2,6 @@ import { Link } from "react-router";
 import projects from "../data/projects";
 
 function HomePage() {
-  const featuredProjects = projects.slice(0, 2);
-
   return (
     <div className="page home-page">
       <section className="hero-section">
@@ -25,19 +23,22 @@ function HomePage() {
 
       <section className="section">
         <div className="section-heading">
-          <h2>Nyeste projekter</h2>
+          <h2>Mine projekter</h2>
+          <p>Gå på opdagelse i mit arbejde.</p>
         </div>
 
-        <div className="project-grid">
-          {featuredProjects.map((project) => (
-            <article className="project-card" key={project.slug}>
-              <img src={project.image} alt={`Preview af ${project.title}`} loading="lazy" />
-              <div className="project-card-content">
-                <p className="eyebrow">{project.year}</p>
-                <h3>{project.title}</h3>
-                <p>{project.summary}</p>
-                <Link to={`/projects/${project.slug}`}>Se projektet<span className="sr-only"> om {project.title}</span></Link>
-              </div>
+        <div className="featured-work">
+          {projects.map((project) => (
+            <article key={project.slug}>
+              <Link className="work-link" to={`/projects/${project.slug}`}>
+                <img src={project.image} alt="" loading="lazy" />
+                <div className="work-caption">
+                  <span className="eyebrow">{project.year}</span>
+                  <h3>{project.title}</h3>
+                  <span className="work-arrow" aria-hidden="true">↗</span>
+                </div>
+              </Link>
+              <p>{project.summary}</p>
             </article>
           ))}
         </div>
