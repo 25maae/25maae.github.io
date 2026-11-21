@@ -450,7 +450,7 @@ p {
   object-fit: contain;
 }
 
-@media (min-width: 1081px) {
+@media (width > 720px) {
   .home-page .hero-section {
     position: relative;
     align-content: start;
@@ -472,12 +472,32 @@ p {
   .home-portrait {
     position: absolute;
     right: 0;
-    bottom: 8%;
+    bottom: 0;
     width: 52.5%;
     height: 97%;
     max-height: none;
     object-fit: cover;
     opacity: .75;
+  }
+}
+
+@media (720px < width <= 1080px) {
+  .home-page .hero-section {
+    aspect-ratio: auto;
+    min-height: clamp(22rem, 49vw, 33rem);
+    grid-template-columns: 63% 1fr;
+    padding-block: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .home-intro h1 {
+    font-size: 7.4vw;
+  }
+
+  .home-portrait {
+    width: 44%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right bottom;
   }
 }
 
@@ -566,6 +586,10 @@ p {
   }
 
   .home-portrait {
-    max-height: 14rem;
+    display: none;
+  }
+
+  .home-intro .hero-text {
+    margin-bottom: 0;
   }
 }
