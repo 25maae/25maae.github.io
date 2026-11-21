@@ -6,13 +6,16 @@ function HomePage() {
     <div className="page home-page">
       <section className="hero-section">
         <div className="home-intro">
-          <p className="eyebrow">Portfolio 2026</p>
+          <p className="eyebrow">
+            Portfolio 2026
+          </p>
           <h1>Martin Hammerum Ærensgaard</h1>
           <p className="hero-text">
             Multimediedesign-studerende med fokus på digitale løsninger,
             brugeroplevelser og visuel identitet.
           </p>
         </div>
+        <span className="scroll-cue" aria-hidden="true" />
         <img
           src={`${import.meta.env.BASE_URL}pb-bw-75.png`}
           alt="Portræt af Martin Hammerum Ærensgaard"
@@ -21,7 +24,7 @@ function HomePage() {
         />
       </section>
 
-      <section className="section">
+      <section className="section" id="projekter">
         <div className="section-heading">
           <h2>Mine projekter</h2>
           <p>Gå på opdagelse i mit arbejde.</p>

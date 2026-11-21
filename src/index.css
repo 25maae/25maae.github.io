@@ -421,15 +421,64 @@ p {
   }
 }
 
+.home-page {
+  --arrow-outset: clamp(0px, calc((100vw - 1160px) / 2), 4rem);
+}
+
 .home-page .hero-section {
+  --intro-top: clamp(2rem, 5vw, 5rem);
+  position: relative;
   grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
   align-items: center;
   gap: clamp(1rem, 4vw, 4rem);
-  padding: clamp(2rem, 5vw, 5rem) 0;
+  padding: var(--intro-top) 0;
   border-bottom: 1px solid #dfd5d3;
 }
 
+.scroll-cue {
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+  top: calc(var(--intro-top) + .75rem);
+  /* Section top padding plus half the responsive heading line height. */
+  bottom: calc(-3rem - clamp(.84rem, 2.1vw, 1.26rem));
+  left: calc(0px - var(--arrow-outset) - .75rem);
+  width: 2.75rem;
+  color: var(--brand-color);
+}
+
+.scroll-cue::before,
+.scroll-cue::after {
+  content: "";
+  position: absolute;
+  left: .75rem;
+}
+
+.scroll-cue::before {
+  inset-block: 0;
+  width: calc(var(--arrow-outset) + 1.25rem);
+  border-left: 2px solid;
+  border-top: 2px solid;
+}
+
+.scroll-cue::after {
+  bottom: 0;
+  width: .7rem;
+  height: .7rem;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  transform: translateX(calc(-50% + 1px)) rotate(45deg);
+}
+
+
+.home-intro {
+  padding-left: max(0px, calc(1.8rem - var(--arrow-outset)));
+}
+
 .home-intro .eyebrow {
+  display: flex;
+  align-items: center;
+  padding-left: min(1.8rem, var(--arrow-outset));
   margin-bottom: 1rem;
   color: var(--brand-color);
   letter-spacing: .08em;
@@ -452,12 +501,11 @@ p {
 
 @media (width > 720px) {
   .home-page .hero-section {
-    position: relative;
     align-content: start;
     min-height: 0;
     aspect-ratio: 1.55;
     grid-template-columns: 68% 1fr;
-    padding-top: 6%;
+    --intro-top: min(6vw, 4.2rem);
   }
 
   .home-intro {
@@ -486,7 +534,7 @@ p {
     aspect-ratio: auto;
     min-height: clamp(22rem, 49vw, 33rem);
     grid-template-columns: 63% 1fr;
-    padding-block: clamp(2rem, 5vw, 3.5rem);
+    --intro-top: clamp(2rem, 5vw, 3.5rem);
   }
 
   .home-intro h1 {
@@ -501,21 +549,15 @@ p {
   }
 }
 
-.home-intro .eyebrow::before {
-  content: "";
-  display: inline-block;
-  width: 2.25rem;
-  height: 3px;
-  margin-right: .75rem;
-  vertical-align: middle;
-  background: currentColor;
-}
-
 .featured-work {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 3rem clamp(1rem, 2vw, 2rem);
   align-items: start;
+}
+
+.home-page .section-heading {
+  padding-left: max(0px, calc(1.8rem - var(--arrow-outset)));
 }
 
 .home-page .section-heading :is(h2, p) {
