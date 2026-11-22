@@ -442,34 +442,24 @@ p {
   top: calc(var(--intro-top) + .75rem);
   /* Section top padding plus half the responsive heading line height. */
   bottom: calc(-3rem - clamp(.84rem, 2.1vw, 1.26rem));
-  left: calc(0px - var(--arrow-outset) - .75rem);
-  width: 2.75rem;
+  left: calc(0px - var(--arrow-outset));
+  width: calc(var(--arrow-outset) + 1.25rem);
   color: var(--brand-color);
 }
 
-.scroll-cue::before,
-.scroll-cue::after {
-  content: "";
-  position: absolute;
-  left: .75rem;
+.scroll-cue svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
 
-.scroll-cue::before {
-  inset-block: 0;
-  width: calc(var(--arrow-outset) + 1.25rem);
-  border-left: 2px solid;
-  border-top: 2px solid;
+.scroll-cue path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
 }
-
-.scroll-cue::after {
-  bottom: 0;
-  width: .7rem;
-  height: .7rem;
-  border-right: 2px solid;
-  border-bottom: 2px solid;
-  transform: translateX(calc(-50% + 1px)) rotate(45deg);
-}
-
 
 .home-intro {
   padding-left: max(0px, calc(1.8rem - var(--arrow-outset)));

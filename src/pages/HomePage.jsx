@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import ScrollArrow from "../components/ScrollArrow";
 import projects from "../data/projects";
 
 function HomePage() {
@@ -15,7 +16,7 @@ function HomePage() {
             brugeroplevelser og visuel identitet.
           </p>
         </div>
-        <span className="scroll-cue" aria-hidden="true" />
+        <ScrollArrow />
         <img
           src={`${import.meta.env.BASE_URL}pb-bw-75.png`}
           alt="Portræt af Martin Hammerum Ærensgaard"
