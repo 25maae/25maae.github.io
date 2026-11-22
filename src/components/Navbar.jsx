@@ -7,7 +7,6 @@ function Navbar() {
         <NavLink to="/" end>
           Forside
         </NavLink>
-        <NavLink to="/projects">Projekter</NavLink>
         <NavLink to="/about">Om mig</NavLink>
         <NavLink to="/contact">Kontakt</NavLink>
       </nav>
