@@ -423,6 +423,7 @@ p {
 
 .home-page {
   --arrow-outset: clamp(0px, calc((100vw - 1160px) / 2), 4rem);
+  --intro-indent: max(0px, calc(1.8rem - var(--arrow-outset)));
 }
 
 .home-page .hero-section {
@@ -443,7 +444,7 @@ p {
   /* Section top padding plus half the responsive heading line height. */
   bottom: calc(-3rem - clamp(.84rem, 2.1vw, 1.26rem));
   left: calc(0px - var(--arrow-outset));
-  width: calc(var(--arrow-outset) + 1.25rem);
+  width: calc(var(--arrow-outset) + var(--intro-indent) - .55rem);
   color: var(--brand-color);
 }
 
@@ -462,13 +463,12 @@ p {
 }
 
 .home-intro {
-  padding-left: max(0px, calc(1.8rem - var(--arrow-outset)));
+  padding-left: var(--intro-indent);
 }
 
 .home-intro .eyebrow {
   display: flex;
   align-items: center;
-  padding-left: min(1.8rem, var(--arrow-outset));
   margin-bottom: 1rem;
   color: var(--brand-color);
   letter-spacing: .08em;
