@@ -752,11 +752,9 @@ main:has(> .contact-page),
 @media (max-width: 720px) {
   .about-profile {
     grid-template-columns: 1fr;
-    gap: 1rem;
   }
 
   .about-portrait {
-    height: clamp(13rem, 35svh, 20rem);
-    justify-self: center;
+    display: none;
   }
 }
