@@ -185,10 +185,6 @@ p {
   font-size: 1.5rem;
 }
 
-.lead-about {
-  max-width: 940px;
-  font-size: 1.5rem;
-}
 
 .actions {
   display: flex;
@@ -294,13 +290,6 @@ p {
   font-weight: 700;
 }
 
-.info-list {
-  display: grid;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.info-list div,
 .contact-list {
   border: 1px solid #e5ddd2;
   border-radius: 0.75rem;
@@ -308,9 +297,6 @@ p {
   padding: 1rem;
 }
 
-.info-list h2 {
-  font-size: 1.15rem;
-}
 
 .contact-list {
   display: grid;
@@ -347,16 +333,6 @@ p {
   transform: scale(1.03);
 }
 
-.portraet {
-  width: 10%;
-  height: 12.5rem;
-  object-fit: cover;
-  opacity: 0.95;
-  left: 61rem;
-  bottom: 30em;
-  position: relative;
-  transform: scale(3.8);
-}
 
 .pb-img {
   width: 15%;
@@ -370,11 +346,6 @@ p {
   opacity: 75%;
 }
 
-.about-tools {
-  flex-wrap: wrap;
-  gap: 1rem;
-  display: flex;
-}
 
 .GitHub {
   flex-wrap: wrap;
@@ -383,9 +354,6 @@ p {
 }
 
 @media (max-width: 1080px) {
-  .portraet {
-    display: none;
-  }
 
   .pb-img {
     display: none;
@@ -623,5 +591,96 @@ p {
 
   .home-intro .hero-text {
     margin-bottom: 0;
+  }
+}
+
+.page.about-page {
+  padding-top: clamp(.5rem, 2vh, 1.5rem);
+}
+
+.about-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(.75rem, 1.4vw, 1.5rem);
+}
+
+.about-copy p {
+  font-size: clamp(1.1rem, 1.7vw, 1.5rem);
+  line-height: 1.6;
+}
+
+.about-portrait {
+  position: relative;
+  height: clamp(15rem, 52svh, 30rem);
+  aspect-ratio: 180 / 500;
+  overflow: hidden;
+}
+
+.about-portrait img {
+  /* Frame the figure within the 600 × 800 photo, starting at (196, 190). */
+  position: absolute;
+  width: 333.333%;
+  max-width: none;
+  height: auto;
+  left: -108.889%;
+  top: -38%;
+}
+
+.about-copy h1 {
+  font-size: clamp(2.6rem, 7vw, 5.5rem);
+}
+
+.about-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.about-toolbox {
+  margin-top: clamp(1rem, 2.5vh, 2rem);
+  border-top: 1px solid #d7c7c6;
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem 3rem;
+}
+
+.about-toolbox h2 {
+  margin: 0;
+  color: var(--brand-color);
+  font-size: 1.5rem;
+}
+
+.about-toolbox ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem 1.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--text-font);
+}
+
+.about-toolbox li {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding-block: .4rem;
+}
+
+.about-toolbox li img {
+  object-fit: contain;
+}
+
+@media (max-width: 720px) {
+  .about-profile {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-portrait {
+    height: clamp(13rem, 35svh, 20rem);
+    justify-self: center;
   }
 }
