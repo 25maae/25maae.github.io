@@ -1,3 +1,5 @@
+import LinkArrow from "../components/LinkArrow";
+
 function ContactPage() {
   return (
     <section className="contact-page">
@@ -14,12 +16,12 @@ function ContactPage() {
                 rel="noreferrer"
                 target="_blank"
               >
-                LinkedIn <span aria-hidden="true">↗</span>
+                LinkedIn <LinkArrow />
               </a>
             </li>
             <li>
               <a href="https://github.com/25maae" rel="noreferrer" target="_blank">
-                GitHub <span aria-hidden="true">↗</span>
+                GitHub <LinkArrow />
               </a>
             </li>
           </ul>
