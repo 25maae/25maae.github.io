@@ -20,7 +20,7 @@
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  background: #faf9f7;
+  background: var(--white);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -303,7 +303,7 @@ p {
 .info-list div {
   border: 1px solid #e5ddd2;
   border-radius: 0.75rem;
-  background: #fffaf3;
+  background: var(--white);
   padding: 1rem;
 }
 
