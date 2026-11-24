@@ -323,7 +323,6 @@ main:has(> .contact-page),
 }
 
 .contact-page {
-  background: var(--white);
   color: var(--brand-color);
   font-family: var(--text-font);
 }

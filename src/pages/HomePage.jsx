@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import ScrollArrow from "../components/ScrollArrow";
+import LinkArrow from "../components/LinkArrow";
 import projects from "../data/projects";
 
 function HomePage() {
@@ -39,7 +40,7 @@ function HomePage() {
                 <div className="work-caption">
                   <span className="eyebrow">{project.year}</span>
                   <h3>{project.title}</h3>
-                  <span className="work-arrow" aria-hidden="true">↗</span>
+                  <LinkArrow className="work-arrow" />
                 </div>
               </Link>
               <p>{project.summary}</p>
