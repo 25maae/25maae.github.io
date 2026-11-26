@@ -686,6 +686,8 @@ main:has(> .contact-page),
 }
 
 .about-portrait {
+  background: var(--white);
+  isolation: isolate;
   position: relative;
   height: clamp(15rem, 52svh, 30rem);
   aspect-ratio: 180 / 500;
@@ -693,6 +695,7 @@ main:has(> .contact-page),
 }
 
 .about-portrait img {
+  mix-blend-mode: multiply;
   /* Frame the figure within the 600 × 800 photo, starting at (196, 190). */
   position: absolute;
   width: 333.333%;
